@@ -1,0 +1,59 @@
+h1, h3, p{
+	text-align: center;
+    font-family: 'Merienda', cursive;
+	color: black;
+	}
+
+body{
+	background-image: url("bg.jpg");
+	background-repeat: none;
+}
+
+h1{
+	font-family: 'Merienda'cursive;
+	letter-spacing: 5px;
+	font-size: 45px;
+	padding-bottom: 20px;
+	border-bottom: dotted rgb(58, 37, 18) 3px;
+}
+
+
+div{
+	border: transparent black 1px;
+	box-sizing: border-box;
+}
+
+div.first, div.second, div.third{
+	width: 20%;
+	height: 150px;
+	border-radius: 30px;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	margin-bottom: 40px;
+}
+
+div.first{
+	margin-left: 18%;
+	color: rgb(37, 24, 7);
+}
+div.first h3{
+	color: rgb(37, 24, 7);
+}
+
+div.second{
+	color: rgb(136, 87, 31);
+}
+
+div.second h3{
+	color: rgb(136, 87, 31);
+}
+
+div.third{
+	margin-right: 18%;
+	color: rgb(43, 32, 17);
+}
+
+div.third h3{
+	color: rgb(43, 32, 17);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FA 3</title>
+    <script src="rndm.js"></script>
+    <link rel="stylesheet" type="text/css" href="rndm.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;600;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Brewing Time~</h1>
+    <p>"A cup of espresso to those who have something to express, yo"</p>
+    <p>The 3 most popular beverages on the menu are Cappuccino, Affogato, and Mocha.</p>
+    <p>Lets talk about random things in the cafe as we take our time, `kay? </p>
+
+    <div class="first">
+		<h3>Cappucino</h3>
+		<hr>
+		<p id="cappu">num1</p>
+	</div>
+
+	<div class="second">
+		<h3>Affogato</h3>
+		<hr>
+		<p id="affo">num2</p>
+	</div>
+
+	<div class="third">
+		<h3>Mocha</h3>
+		<hr>
+		<p id="moch">num3</p>
+	</div>
+
+	<p id="bestBeverage"></p>
+	<p id="commonName"></p>
+	<p id="timeTook"></p>
+
+	<script>
+		random();
+		coffee();
+		nameCostumer();
+		timeTaken();
+	</script>
+</body>
+</html>
